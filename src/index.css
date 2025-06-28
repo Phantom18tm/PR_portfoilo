@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+.font-Michroma {
+  font-family: 'Michroma', sans-serif;
+}
+.font-sevillana {
+  font-family: 'Sevillana', cursive;
+}
+
+@import "tailwindcss";
+body {
+  background-color: #000;
+}
+@theme {
+  --font-savate: "savate", sans-serif;
+} 
+@creative-section {
+  font-savate: var(--font-savate);
+}
